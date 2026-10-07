@@ -6,14 +6,14 @@ public class ClearData {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/SRMS";
         String user = "root";
-        String password = "2024106262";
+        String password = "your_mysql_pass";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection(url, user, password);
 
             Statement stmt = con.createStatement();
-            stmt.executeUpdate("TRUNCATE TABLE students"); // TRUNCATE se table khali ho jayegi aur ID wapas 1 se start hogi
+            stmt.executeUpdate("TRUNCATE TABLE students"); // TRUNCATE is used to clean all the data that are present in the table
 
             System.out.println("Data cleared!");
             con.close();
