@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class HostelApp {
     private static final String URL = "jdbc:mysql://localhost:3306/SRMS";
     private static final String USER = "root";
-    private static final String PASS = "2024106262";
+    private static final String PASS = "your-sql-password";
 
     public static Connection getConnection() throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
