@@ -5,7 +5,7 @@ public class CreateHMSTable {
     public static void main(String[] args){
         String url = "jdbc:mysql://localhost:3306/SRMS";
         String user = "root";
-        String password = "2024106262";
+        String password = "your-sql-password";
 
         String createTableSql="CREATE TABLE IF NOT EXISTS hostel_management (" +
                 "id INT PRIMARY KEY AUTO_INCREMENT," +
