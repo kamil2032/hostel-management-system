@@ -5,7 +5,7 @@ public class DBconnection {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/SRMS";
         String user = "root";
-        String password = "2024106262";
+        String password = "your-sql-password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
